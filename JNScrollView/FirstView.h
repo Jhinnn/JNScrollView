@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstView.h
 //  JNScrollView
 //
 //  Created by admin on 2019/3/12.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FirstView : UIView
 
-@property (nonatomic,assign) NSUInteger selectIndex;
+@property (nonatomic, strong) NSArray *textArray;
 
 @end
-

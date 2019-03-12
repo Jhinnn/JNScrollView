@@ -15,6 +15,9 @@
 		841434112237823900558544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841434102237823900558544 /* main.m */; };
 		8414341B2237823900558544 /* JNScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414341A2237823900558544 /* JNScrollViewTests.m */; };
 		841434262237823900558544 /* JNScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841434252237823900558544 /* JNScrollViewUITests.m */; };
+		841434732237B3E000558544 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841434722237B3E000558544 /* FirstView.m */; };
+		841434772237B79E00558544 /* View1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841434752237B79E00558544 /* View1TableViewCell.m */; };
+		841434782237B79E00558544 /* View1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841434762237B79E00558544 /* View1TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		841434212237823900558544 /* JNScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841434252237823900558544 /* JNScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNScrollViewUITests.m; sourceTree = "<group>"; };
 		841434272237823900558544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841434712237B3E000558544 /* FirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		841434722237B3E000558544 /* FirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		841434742237B79E00558544 /* View1TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View1TableViewCell.h; sourceTree = "<group>"; };
+		841434752237B79E00558544 /* View1TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View1TableViewCell.m; sourceTree = "<group>"; };
+		841434762237B79E00558544 /* View1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View1TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				841434022237823800558544 /* AppDelegate.m */,
 				841434042237823800558544 /* ViewController.h */,
 				841434052237823800558544 /* ViewController.m */,
+				841434742237B79E00558544 /* View1TableViewCell.h */,
+				841434752237B79E00558544 /* View1TableViewCell.m */,
+				841434762237B79E00558544 /* View1TableViewCell.xib */,
+				841434712237B3E000558544 /* FirstView.h */,
+				841434722237B3E000558544 /* FirstView.m */,
 				841434072237823800558544 /* Main.storyboard */,
 				8414340A2237823900558544 /* Assets.xcassets */,
 				8414340C2237823900558544 /* LaunchScreen.storyboard */,
@@ -237,6 +250,7 @@
 			files = (
 				8414340E2237823900558544 /* LaunchScreen.storyboard in Resources */,
 				8414340B2237823900558544 /* Assets.xcassets in Resources */,
+				841434782237B79E00558544 /* View1TableViewCell.xib in Resources */,
 				841434092237823800558544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				841434062237823800558544 /* ViewController.m in Sources */,
+				841434732237B3E000558544 /* FirstView.m in Sources */,
+				841434772237B79E00558544 /* View1TableViewCell.m in Sources */,
 				841434112237823900558544 /* main.m in Sources */,
 				841434032237823800558544 /* AppDelegate.m in Sources */,
 			);

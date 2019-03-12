@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  View1TableViewCell.h
 //  JNScrollView
 //
 //  Created by admin on 2019/3/12.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (nonatomic,assign) NSUInteger selectIndex;
+@interface View1TableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *textLbl;
 
 @end
-
